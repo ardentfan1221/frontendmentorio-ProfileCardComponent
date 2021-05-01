@@ -24,7 +24,7 @@ body {
     border-radius: 25px;
     z-index: -2;
     overflow: auto;
-    height: 480px;
+    height: 440px;
 }
 
 .bg-card-img {
@@ -66,6 +66,8 @@ body {
     font-weight: lighter;
     color: hsl(227, 10%, 46%);
     font-size: 16px;
+    margin-top: 10px;
+    padding-bottom: 20px;
 }
 
 .card-soc {
@@ -73,8 +75,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;  
-    margin-top: 80px;
-    padding: 0 30px; 
+    margin: 0;
+    padding: 40px 60px 0; 
 }
 
 .card-soc p {
@@ -93,5 +95,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.line {
+    width: 100%;
+    background-color: black;
+    height: 1px;
+    opacity: 0.2;
+    margin-top: 45px;
 }
 
